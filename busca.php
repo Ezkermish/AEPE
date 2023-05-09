@@ -134,7 +134,20 @@
               echo "<form action='update.php' method='POST'>";
                 //Listas desplegables
                 echo "<div>";
-
+                  echo "<select name='' id=''>";
+                    echo "<option value='' disabled selected>SECCIÓN</option>";
+                    echo "<option value=''>5417</option>";
+                    echo "<option value=''>5418</option>";
+                    echo "<option value=''>5418</option>";
+                  echo "</select>";
+                echo "</div>";
+                echo "<div>";
+                  echo "<select name='' id=''>";
+                    echo "<option value='' disabled selected>TIPO CASILLA</option>";
+                    echo "<option value=''>B1</option>";
+                    echo "<option value=''>C1</option>";
+                    echo "<option value=''>C2</option>";
+                  echo "</select>";
                 echo "</div>";
                 //Cuadros de texto
                 echo "<div>";
